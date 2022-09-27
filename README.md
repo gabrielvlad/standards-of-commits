@@ -264,35 +264,35 @@ The semantic commit has the following structural elements (types), which inform 
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":zap: perf: Melhoria no tempo de resposta"</code>
+        <code>git commit -m ":zap: perf: Improved response time"</code>
       </td>
-      <td>⚡ perf: Melhoria no tempo de resposta</td>
+      <td>⚡ perf: Improved response time</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":boom: fix: Revertendo mudanças ineficientes"</code>
+        <code>git commit -m ":boom: fix: Reverting ineffective changes"</code>
       </td>
-      <td>💥 fix: Revertendo mudanças ineficientes</td>
+      <td>💥 fix: Reverting ineffective changes</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":lipstick: feat: Estilizaçao CSS do formulario"</code>
+        <code>git commit -m ":lipstick: feat: CSS styling of the form"</code>
       </td>
-      <td>💄 feat: Estilizaçao CSS do formulario</td>
+      <td>💄 feat: CSS styling of the form</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":test_tube: test: Criando novo teste"</code>
+        <code>git commit -m ":test_tube: test: Creating new test"</code>
       </td>
-      <td>🧪 test: Criando novo teste</td>
+      <td>🧪 test: Creating new test</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"</code>
+        <code>git commit -m ":bulb: docs: Comments on the Lorem Ipsum() function"</code>
       </td>
-      <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
+      <td>💡 docs: Comments on the Lorem Ipsum() function</td>
     </tr>
   </tbody>
 </table>
 
-<br>[🔝 Voltar ao topo](#padrões-de-commits-) <br>
+<br>[🔝 Back to top](#commits-patterns-) <br>
