@@ -175,7 +175,7 @@ The semantic commit has the following structural elements (types), which inform 
       <td><code>fix</code></td>
     </tr>
     <tr>
-      <td>Segurança</td>
+      <td>Safety</td>
       <td>🔒️ <code>:lock:</code></td>
       <td></td>
     </tr>
@@ -185,82 +185,82 @@ The semantic commit has the following structural elements (types), which inform 
       <td></td>
     </tr>
     <tr>
-      <td>Tag de versão</td>
+      <td>Version tag</td>
       <td>🔖 <code>:bookmark:</code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Teste de aprovação</td>
+      <td>Pass test</td>
       <td>✔️ <code>:heavy_check_mark:</code></td>
       <td><code>test</code></td>
     </tr>
     <tr>
-      <td>Testes</td>
+      <td>Tests</td>
       <td>🧪 <code>:test_tube:</code></td>
       <td><code>test</code></td>
     </tr>
     <tr>
-      <td>Texto</td>
+      <td>Text</td>
       <td>📝 <code>:pencil:</code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Tipagem</td>
+      <td>Typing</td>
       <td>🏷️ <code>:label:</code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Tratamento de erros</td>
+      <td>Error handling</td>
       <td>🥅 <code>:goal_net:</code></td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-## 💻 Exemplos
+## 💻 Examples
 <table>
   <thead>
     <tr>
-      <th>Comando git</th>
-      <th>Resultado no GitHub</th>
+      <th>Git command</th>
+      <th>Result on GitHub</th>
     </tr>
   </thead>
  <tbody>
     <tr>
       <td>
-        <code>git commit -m ":tada: Commit inicial"</code>
+        <code>git commit -m ":tada: Initial commit"</code>
       </td>
-      <td>🎉 Commit inicial</td>
+      <td>🎉 Initial commit</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":books: docs: Atualizaçao do README"</code>
+        <code>git commit -m ":books: docs: README update"</code>
       </td>
-      <td>📚 docs: Atualizaçao do README</td>
+      <td>📚 docs: README update</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bug: fix: Loop infinito na linha 50"</code>
+        <code>git commit -m ":bug: fix: Infinite loop on line 50"</code>
       </td>
-      <td>🐛 fix: Loop infinito na linha 50</td>
+      <td>🐛 fix: Infinite loop on line 50</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":sparkles: feat: Pagina de login"</code>
+        <code>git commit -m ":sparkles: feat: Login page"</code>
       </td>
-      <td>✨ feat: Pagina de login</td>
+      <td>✨ feat: Login page</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bricks: ci: Modificaçao no Dockerfile"</code>
+        <code>git commit -m ":bricks: ci: Modification in Dockerfile"</code>
       </td>
-      <td>🧱 ci: Modificaçao no Dockerfile</td>
+      <td>🧱 ci: Modification in Dockerfile</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":recycle: refactor: Passando para arrow functions"</code>
+        <code>git commit -m ":recycle: refactor: Passing to arrow functions"</code>
       </td>
-      <td>♻️ refactor: Passando para arrow functions</td>
+      <td>♻️ refactor: Passing to arrow functions</td>
     </tr>
     <tr>
       <td>
