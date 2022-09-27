@@ -1,5 +1,5 @@
 <h1 align="center">
-📄<br>Padrões de commits 
+📄<br>Commit patterns(This is a translation of "iuricode/padroes-de-commits" if you want to see the original repository in portuquese
 </h1>
 
 <h1 align="center">
