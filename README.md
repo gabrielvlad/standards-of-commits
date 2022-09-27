@@ -6,77 +6,76 @@
   <img src="gitcommit.png">
 </h1>
 
-De acordo com a documentação do **Conventional Commits**, Commits Semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define  um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
+According to the **Conventional Commits** documentation, Semantic Commits are a simple convention to use in commit messages. This convention defines a set of rules for creating an explicit commit history, which facilitates the creation of automated tools.
 
-Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
+These commits will help you and your team to easily understand what changes were made to the code snippet that was committed.
 
-Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
+This identification occurs through a word and emoji that identifies if that commit made is a code change, package update, documentation, visual change, test...
 
-## 🦄 Tipo e Descrição
+## 🦄 Type and Description
 
-O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
+The semantic commit has the following structural elements (types), which inform the intent of your commit to the user of your code.
 
-- `feat`- Commits do tipo feat indicam que seu trecho de código está incluindo um **novo recurso** (se relaciona com o MINOR do versionamento semântico).
+- `feat`- Commits of type feat indicate that your code snippet is including a **new feature** (relates to the MINOR of semantic versioning).
 
-- `fix` - Commits do tipo fix indicam que seu trecho de código commitado está **solucionando um problema** (bug fix), (se relaciona com o PATCH do versionamento semântico).
+- `fix` - Fix commits indicate that your committed code snippet is **fixing a problem** (bug fix), (relates to the semantic versioning PATCH).
 
-- `docs` - Commits do tipo docs indicam que houveram **mudanças na documentação**, como por exemplo no Readme do seu repositório. (Não inclui alterações em código).
+- `docs` - Commits like docs indicate that there have been **documentation changes**, such as in the Readme of your repository. (Does not include code changes).
 
-- `test` - Commits do tipo test são utilizados quando são realizadas **alterações em testes**, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código)
+- `test` - Test-type commits are used when **changes to tests** are made, either by creating, changing or deleting unit tests. (Does not include code changes)
 
-- `build` - Commits do tipo build são utilizados quando são realizadas modificações em **arquivos de build e dependências**.
+- `build` - Build commits are used when modifications are made to **build files and dependencies**.
 
-- `perf` - Commits do tipo perf servem para identificar quaisquer alterações de código que estejam relacionadas a **performance**.
+- `perf` - Commits of type perf serve to identify any code changes that are related to **performance**.
 
-- `style` - Commits do tipo style indicam que houveram alterações referentes a **formatações de código**, semicolons, trailing spaces, lint... (Não inclui alterações em código).
+- `style` - Style commits indicate that there were changes regarding **code formatting**, semicolons, trailing spaces, lint... (Does not include code changes).
 
-- `refactor` - Commits do tipo refactor referem-se a mudanças devido a **refatorações que não alterem sua funcionalidade**, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a um code review.
+- `refactor` - Refactor type commits refer to changes due to **refactorings that do not change its functionality**, such as, for example, a change in the format in which a certain part of the screen is processed, but which kept the same functionality, or performance improvements due to a code review.
 
-- `chore` - Commits do tipo chore indicam **atualizações de tarefas** de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em código)
+- `chore` - Chore commits indicate build **task updates**, admin settings, packages... such as adding a package in gitignore. (Does not include code changes)
 
-- `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (*continuous integration*).
+- `ci` - Commits of the type that indicate changes related to **continuous integration** (*continuous integration*).
 
-## ☑️ Recomendações
+## ☑️ Recommendations
+- Add a title consistent with the title of the content;
+- We recommend that the first line should have a maximum of 4 words;
+- To describe in detail, use the commit description;
+- Use an emoji at the beginning of the commit message representing the commit;
+- A link needs to be added in its most authentic form, that is: without link shorteners and affiliate links;
 
-- Adicione um título consistente com o título do conteúdo;
-- Recomendamos que na primeira linha deve ter no máximo 4 palavras;
-- Para descrever com detalhes, usar a descrição do commit;
-- Usar um emoji no início da mensagem de commit representando sobre o commit;
-- Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
-
-## 💈 Padrões de emojis
+## 💈 Emoji patterns
 
 <table>
   <thead>
     <tr>
-      <th>Tipo de commit</th>
+      <th>Commit type</th>
       <th>Emojis</th>
-      <th>Palavra-chave</th>
+      <th>Keyword</th>
     </tr>
   </thead>
  <tbody>
     <tr>
-      <td>Acessibilidade</td>
+      <td>Accessibility</td>
       <td>♿ <code>:wheelchair:</code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Adicionando um teste</td>
+      <td>Adding a test</td>
       <td>✅ <code>:white_check_mark:</code></td>
       <td><code>test</code></td>
     </tr>
     <tr>
-      <td>Adicionando uma dependência</td>
+      <td>Adding a dependency</td>
       <td>➕ <code>:heavy_plus_sign:</code></td>
       <td><code>build</code></td>
     </tr>
     <tr>
-      <td>Alterações de revisão de código</td>
+      <td>Code review changes</td>
       <td>👌 <code>:ok_hand:</code></td>
       <td><code>style</code></td>
     </tr>
     <tr>
-      <td>Animações e transições</td>
+      <td>Animations and transitions</td>
       <td>💫 <code>:dizzy:</code></td>
       <td></td>
     </tr>
@@ -86,17 +85,17 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td><code>fix</code></td>
     </tr>
     <tr>
-      <td>Comentários</td>
+      <td>Comments</td>
       <td>💡 <code>:bulb:</code></td>
       <td><code>docs</code></td>
     </tr>
     <tr>
-      <td>Commit inicial</td>
+      <td>Initial commit</td>
       <td>🎉 <code>:tada:</code></td>
       <td><code>init</code></td>
     </tr>
     <tr>
-      <td>Configuração</td>
+      <td>Settings</td>
       <td>🔧 <code>:wrench:</code></td>
       <td><code>chore</code></td>
     </tr>
@@ -106,42 +105,42 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td></td>
     </tr>
     <tr>
-      <td>Documentação</td>
+      <td>Documentation</td>
       <td>📚 <code>:books:</code></td>
       <td><code>docs</code></td>
     </tr>
     <tr>
-      <td>Em progresso</td>
+      <td>In progress</td>
       <td>🚧 <code>:construction:</code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Estilização de interface</td>
+      <td>Interface styling</td>
       <td>💄 <code>:lipstick:</code></td>
       <td><code>feat</code></td>
     </tr>
     <tr>
-      <td>Infraestrutura</td>
+      <td>Infrastructure</td>
       <td>🧱 <code>:bricks:</code></td>
       <td><code>ci</code></td>
     </tr>
     <tr>
-      <td>Lista de ideias (tasks)</td>
+      <td>List of ideas (tasks)</td>
       <td>🔜 <code> :soon: </code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Mover/Renomear</td>
+      <td>Move/Rename</td>
       <td>🚚 <code>:truck:</code></td>
       <td><code>chore</code></td>
     </tr>
     <tr>
-      <td>Novo recurso</td>
+      <td>New feature</td>
       <td>✨ <code>:sparkles:</code></td>
       <td><code>feat</code></td>
     </tr>
     <tr>
-      <td>Package.json em JS</td>
+      <td>Package.json in JS</td>
       <td>📦 <code>:package:</code></td>
       <td><code>build</code></td>
     </tr>
@@ -151,27 +150,27 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td><code>perf</code></td>
     </tr>
     <tr>
-        <td>Refatoração</td>
+        <td>Refactoring</td>
         <td>♻️ <code>:recycle:</code></td>
         <td><code>refactor</code></td>
     </tr>
     <tr>
-      <td>Removendo um arquivo</td>
+      <td>Removing a file</td>
       <td>🔥 <code>:fire:</code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Removendo uma dependência</td>
+      <td>Removing a dependency</td>
       <td>➖ <code>:heavy_minus_sign:</code></td>
       <td><code>build</code></td>
     </tr>
     <tr>
-      <td>Responsividade</td>
+      <td>Responsiveness</td>
       <td>📱 <code>:iphone:</code></td>
       <td></td>
     </tr>
     <tr>
-      <td>Revertendo mudanças</td>
+      <td>Reversing changes</td>
       <td>💥 <code>:boom:</code></td>
       <td><code>fix</code></td>
     </tr>
